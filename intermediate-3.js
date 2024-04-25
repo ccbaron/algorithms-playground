@@ -16,10 +16,13 @@ function getWords5Letters(words) {
 
 
 console.log(getWords5Letters(["mesa", "silla", "cuchara", "tenedor", "cama"]));
-// ["mesa", "cama"], se espera ["mesa", "cama"] porque son las únicas palabras que tienen exactamente 5 letras
+// ["silla"]
 
 console.log(getWords5Letters(["perro", "gato", "loro", "pez", "ciervo"]));
-// ["perro", "loro"], se espera ["perro", "loro"] porque son las únicas palabras que tienen exactamente 5 letras
+// ["perro"]
 
 console.log(getWords5Letters(["sol", "luz", "mar", "cielo", "sol"]));
-// [], se espera [] porque ninguna de las palabras tiene 5 letras
+// [cielo]
+
+console.log(getWords5Letters(["sol", "luz", "mar", "sol"]));
+// []
