@@ -22,7 +22,7 @@ console.log(getWords5Letters(["perro", "gato", "loro", "pez", "ciervo"]));
 // ["perro"]
 
 console.log(getWords5Letters(["sol", "luz", "mar", "cielo", "sol"]));
-// [cielo]
+// ["cielo"]
 
 console.log(getWords5Letters(["sol", "luz", "mar", "sol"]));
 // []
