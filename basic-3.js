@@ -6,7 +6,14 @@
  */
 
 function sayHi(name, language) {
-    return;
+    language = language.toLowerCase();
+    if (language == "french") {
+        return `Bonjour, ${name}!`;
+    } else if (language == "spanish") {
+        return `Hola, ${name}!`;
+    } else {
+        return `Hello, ${name}!`;
+    }
 }
 
 console.log(sayHi("Carlos", "spanish")); // "Hola, Carlos!", se espera un saludo en español
